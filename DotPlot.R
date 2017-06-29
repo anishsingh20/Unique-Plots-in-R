@@ -20,7 +20,7 @@ city_mpg<-mpg %>%
     summarise(Mileage = mean(cty),count=n()) %>%
     arrange(Mileage)
 
-#ordering the rows on the basis of Mileage
+#ordering the rows on the basis of Mileages
 city_mpg <- city_mpg[order(city_mpg$Mileage), ] 
 city_mpg$manufacturer <- factor(city_mpg$manufacturer, levels = city_mpg$manufacturer)
 

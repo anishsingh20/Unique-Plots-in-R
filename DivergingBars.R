@@ -21,7 +21,7 @@ ggplot(mtcars, aes(x=car_name, y=mpg_norm, label=mpg_norm)) +
                     labels = c("Above Average", "Below Average"), 
                     values = c("above"="#1E90FF", "below"="#00FF00")) + 
   labs(subtitle="Normalised mileage of Cars", 
-       title= "Diverging Bars",x="Car Name", y = "Normalized Miles Per Gallon") + 
+       title= "Diverging Bars",x="Car Name",y = "Normalized Miles Per Gallon") + 
   coord_flip()
 
 #Miles Per Gallon for Cars in Descending order 
