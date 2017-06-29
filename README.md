@@ -11,3 +11,8 @@ This repository contains various different and expceptional visualization in R .
 ## 2) Waffle Chart to understand and plot Compositions of Car Classes from 'mpg' dataset
 
 ![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/WaffleChart.png)
+
+
+## 3) Dot Plots to visualize the Ranked Orderings between Categorical and Continious Variables.
+
+![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/DotPlot.png)
