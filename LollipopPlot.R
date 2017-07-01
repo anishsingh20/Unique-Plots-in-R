@@ -12,8 +12,9 @@ city_mpg<- mpg %>%
 
 #Plot
 ggplot(city_mpg , aes(x = manufacturer,y = Mileage)) + 
-  geom_point(size=3) + 
+  geom_point(size=8,color="red",alpha=0.9) + 
+  geom_text(aes(label=round(Mileage)),color="white" , size=3) +
   geom_segment(aes(x = manufacturer, xend = manufacturer , 
                        y = 0 , yend = Mileage)) +
-  labs(title="Lollipo Plot",x = "Manufacturer", y = "Miles Per Gallon",subtitle="Model vs Mileage") + 
+  labs(title="Lollipop Plot",x = "Manufacturer", y = "Miles Per Gallon",subtitle="Model vs Mileage") + 
   theme(axis.text.x = element_text(angle=65, vjust=0.6))
