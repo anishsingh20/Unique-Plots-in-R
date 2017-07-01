@@ -28,3 +28,6 @@ This repository contains various different and expceptional visualization in R .
 ![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/DivergingBars.png)
 
 
+## 6)Diverging Dot Plot which is also used in Plotting a Continious vs Categorical Variable with aesthetics as a Point for each Category and it equivalent continious value
+
+![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/Diverging%20Dot%20Plot.png)
