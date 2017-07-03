@@ -36,3 +36,8 @@ This repository contains various different and expceptional visualization in R .
 ## 7) Lollipop Plot in R
 
 ![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/Lollipop%20Plot.png)
+
+
+## 8) Slope Charts to study the positional changes and plcaements between 2 poins on time
+
+![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/Slope%20Plot.png)
