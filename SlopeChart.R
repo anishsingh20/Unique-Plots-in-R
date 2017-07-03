@@ -6,3 +6,8 @@ require(ggplot2)
 require(scales)
 
 theme_set(theme_classic())
+
+#Preparing data
+gdpdata<-read.csv("https://raw.githubusercontent.com/anishsingh20/datasets/master/gdppercap.csv")
+
+colnames(gdpdata)<-c("Contienent","1952","1957")
