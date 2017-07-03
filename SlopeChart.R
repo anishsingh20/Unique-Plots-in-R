@@ -11,6 +11,8 @@ theme_set(theme_classic())
 gdpdata<-read.csv("https://raw.githubusercontent.com/anishsingh20/datasets/master/gdppercap.csv")
 
 colnames(gdpdata)<-c("Contienent","1952","1957")
+gdpdata$`1952`<-as.integer(gdpdata$`1952`)
+gdpdata$`1957`<-as.integer(gdpdata$`1957`)
 
 left_label <- paste(gdpdata$Contienent, round(gdpdata$`1952`),sep=", ")
 right_label <- paste(gdpdata$Contienent, round(gdpdata$`1957`),sep=", ")
@@ -36,4 +38,11 @@ plot <- plot + geom_text(label=right_label, y=gdpdata$`1957`, x=rep(2, NROW(gdpd
 plot <- plot + geom_text(label="Time 1", x=1, y=1.1*(max(gdpdata$`1952`, gdpdata$`1957`)), hjust=1.2, size=6)  # title
 plot <- plot + geom_text(label="Time 2", x=2, y=1.1*(max(gdpdata$`1952`, gdpdata$`1957`)), hjust=-0.1, size=6)  # title
   
+# Minify theme
+plot + theme(panel.background = element_blank(), 
+          panel.grid = element_blank(),
+          axis.ticks = element_blank(),
+          axis.text.x = element_blank(),
+          panel.border = element_blank(),
+          plot.margin = unit(c(1,2,1,2), "cm"))
 
