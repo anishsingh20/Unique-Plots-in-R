@@ -7,4 +7,5 @@ devtools::install_github("hrbrmstr/ggalt")
 require(ggalt)
 theme_set(theme_classic())
 
-
+#Loading the Dataset
+health<-read.csv("https://raw.githubusercontent.com/anishsingh20/datasets/master/health.csv")
