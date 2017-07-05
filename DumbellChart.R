@@ -4,6 +4,7 @@
 
 require(ggplot2)
 devtools::install_github("hrbrmstr/ggalt")
-require(ggaalt)
+require(ggalt)
+theme_set(theme_classic())
 
 
