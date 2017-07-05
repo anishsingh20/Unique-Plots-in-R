@@ -41,3 +41,8 @@ This repository contains various different and expceptional visualization in R .
 ## 8) Slope Charts to study the positional changes and plcaements between 2 poins on time
 
 ![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/Slope%20Plot.png)
+
+
+## 9) Dumbell Plot - which is also a  great Tool for Visualizing the Positional Changes between points
+
+![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/Dumbell%20Plot.png)
