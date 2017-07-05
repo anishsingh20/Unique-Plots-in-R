@@ -15,10 +15,13 @@ health$Area <- factor(health$Area, levels=as.character(health$Area))
 
 #Making the Plot
 
-plot<-ggplot(aes(x=pct_2013,xend=pct_2014,y=Area , gropu = Area),data = health) +
-  geom_dumbbell(color="#a3c4dc",
-                size=1,
-                print.color.1="#0e668b") + 
+plot<-ggplot(aes(x=pct_2013*100,xend=pct_2014*100,y=Area , group = Area),data = health) +
+  geom_dumbbell(colour_x="#2D54ED",
+                size_x=2.5,
+                color="#8299F3",
+                size_xend = 2.5,
+                colour_xend="#48D5EA",
+                size=1.5) + 
   labs(x="Percentage", 
        y="City", 
        title="Dumbell Plot for Positional Changes between 2 points", 
