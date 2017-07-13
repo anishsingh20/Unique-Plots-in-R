@@ -20,4 +20,13 @@ plot<-ggplot(aes(x = "" , y = count,fill=factor(class)),data = Carclass) +
         plot.title = element_text(hjust=0.5)) + 
         labs(title="Pie Chart of distributions of the Class of Cars",
              x=NULL,y=NULL , fill = 'Class of cars')
+
+
+#Final Plot to make it a Pie Chart
+
+plot + coord_polar(theta ="y" , start = 0)  + scale_color_brewer(palette = "Set1")
+
+
+
+
   
