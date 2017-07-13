@@ -46,3 +46,9 @@ This repository contains various different and expceptional visualization in R .
 ## 9) Dumbell Plot - which is also a  great Tool for Visualizing the Positional Changes between points
 
 ![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/Dumbell%20Plot.png)
+
+## 10) Pie Chart in R using ggplot- Pie charts are a great tool for visualizing and studying the distributions and the frequency of a Qualitative variable in a Dataset.
+
+
+![github logo](https://github.com/anishsingh20/Unique-Plots-in-R/blob/master/Plots/Pie%20Chart.png)
+
